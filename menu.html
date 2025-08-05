@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>my website Coffee</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logo.png" alt="Café Élysée Logo" id="navbar-logo">
+				<span class="ml-2">Café Élysée</span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+              	<a class="dropdown-item" href="shop.html">Shop</a>
+                <a class="dropdown-item" href="product-single.html">Single Product</a>
+                <a class="dropdown-item" href="cart.html">Cart</a>
+                <a class="dropdown-item" href="checkout.html">Checkout</a>
+              </div>
+            </li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item cart"><a href="cart.html" class="nav-link"><span class="icon icon-shopping_cart"></span><span class="bag d-flex justify-content-center align-items-center"><small>1</small></span></a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel">
+
+      <div class="slider-item" style="background-image: url(images/bg-3.jpg);" data-stellar-background-ratio="0.5">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center">
+
+            <div class="col-md-7 col-sm-12 text-center ftco-animate">
+            	<h1 class="mb-3 mt-5 bread">Our Menu</h1>
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Menu</span></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<section class="ftco-intro">
+    	<div class="container-wrap">
+    		<div class="wrap d-md-flex align-items-xl-end">
+	    		<div class="info">
+	    			<div class="row no-gutters">
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-phone"></span></div>
+	    					<div class="text">
+	    						<h3>+94 758 333 516</h3>
+	    						<p>For a perfect cup of elegance, crafted just for you, reach out to us.</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-my_location"></span></div>
+	    					<div class="text">
+	    						<h3>Main Street, Valaichenai</h3>
+	    						<p>	Trinco road, Batticaloa, Srilanka.</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><span class="icon-clock-o"></span></div>
+	    					<div class="text">
+	    						<h3>Open Monday-Saturday</h3>
+	    						<p>8:00am - 10:00pm</p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="book p-4">
+	    			<h3>Book a Table</h3>
+	    			<form id="appointmentForm" class="appointment-form">
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<input type="text" class="form-control" placeholder="First Name">
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Last Name">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<div class="input-wrap">
+		            		<div class="icon"><span class="ion-md-calendar"></span></div>
+		            		<input type="text" class="form-control appointment_date" placeholder="Date">
+	            		         </div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<div class="input-wrap">
+		            		<div class="icon"><span class="ion-ios-clock"></span></div>
+		            		<input type="text" class="form-control appointment_time" placeholder="Time">
+	            		        </div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Phone">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+	    					<div class="form-group">
+		                    <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+		                    </div>
+		                    <div class="form-group ml-md-4">
+		                    <input type="submit" value="Appointment" class="btn btn-white py-3 px-4">
+		                    </div>
+	    				</div>
+	    			</form>
+	    		</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
+    	<div class="container">
+        <div class="row">
+        	<div class="col-md-6 mb-5 pb-3">
+        		<h3 class="mb-5 heading-pricing ftco-animate">Coffee</h3>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/cappucino.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Capuccino</span></h3>
+	        				<span class="price">$2.37</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Blend of rich espresso, velvety steamed milk, and a delicate layer of froth.</p>
+	        			</div>
+        			</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/espresso.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Espresso</span></h3>
+	        				<span class="price">$3.39</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Espresso is a true celebration of the finest coffee beans.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/Doppio.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Doppio</span></h3>
+	        				<span class="price">$5.30</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A rich and bold double shot of espresso</p>
+	        			</div>
+	        		</div>
+        		</div>
+				<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/americano-coffee.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Americano</span></h3>
+	        				<span class="price">$4.10</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Rich espresso and hot water, our Americano delivers a smooth, bold flavor that coffee lovers crave</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/latte.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Latte</span></h3>
+	        				<span class="price">$4.70</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A harmonious blend of rich espresso and velvety steamed milk.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6 mb-5 pb-3">
+        		<h3 class="mb-5 heading-pricing ftco-animate">Main Dish</h3>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/croissant\ sandwich.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Croissant Sandwich</span></h3>
+	        				<span class="price">$3.04</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Flaky, buttery perfection meets savory fillings </p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/burger-1.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Burger</span></h3>
+	        				<span class="price">$4.40</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Juicy beef patty, crisp lettuce, ripe tomatoes, melted cheddar cheese, and our special sauce, served on a freshly baked bun.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/granola.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>granola</span></h3>
+	        				<span class="price">$1.90</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A wholesome blend of rolled oats, crunchy nuts, dried fruits, and a touch of honey. Perfectly toasted for a light, nutritious snack or a delicious topping for yogurt.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/image_1.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>spaghetti</span></h3>
+	        				<span class="price">$3.38</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Enjoy our delicious spaghetti, made with al dente pasta and a rich, savory marinara sauce. Topped with freshly grated Parmesan cheese and a sprinkle of basil.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6">
+        		<h3 class="mb-5 heading-pricing ftco-animate">Desserts</h3>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/tiramisu.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Tiramisu</span></h3>
+	        				<span class="price">$3.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Rich espresso, mascarpone, and layers of soft, coffee-soaked ladyfingers.</p>
+	        			</div>
+        			</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/Wiener-Eiskaffee.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Eiskaffee</span></h3>
+	        				<span class="price">$2.90</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A refreshing blend of rich espresso and velvety ice cream</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/affogato.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Affogato</span></h3>
+	        				<span class="price">$2.90</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A Rich scoop of creamy vanilla gelato topped with a shot of our freshly brewed espresso.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/Ice-Cream-Sundae.jpg..webp);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Icecream Sundae</span></h3>
+	        				<span class="price">$3.70</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Creamy vanilla ice cream topped with rich chocolate or caramel sauce, whipped cream, and a cherry on top. Choose from an array of toppings, including crunchy nuts, sprinkles, and fresh fruits</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6">
+        		<h3 class="mb-5 heading-pricing ftco-animate">Drinks</h3>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/mojito.jpeg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Mojitos</span></h3>
+	        				<span class="price">$2.01</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Refreshing Mojitos are a perfect balance of zesty lime, fresh mint, and a hint of sweetness.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/Black-Mojito.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Black Mojito</span></h3>
+	        				<span class="price">$3.38</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Crafted with fresh mint, zesty lime juice, premium dark rum, and a splash of soda</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/Coffee\ cocktail.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Coffee Cocktail</span></h3>
+	        				<span class="price">$2.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Rich espresso, expertly blended with spirits and fresh ingredients for a unique twist.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/fresh\ juice.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Fresh Juices</span></h3>
+	        				<span class="price">$0.51-$1.69</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Freshly squeezed juices offers a burst of natural flavors</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+	<footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Us</h2>
+              <p>At Café Élysée, we are passionate about crafting exceptional coffee experiences. Our carefully sourced beans and skilled baristas come together to bring you the finest brews and delightful dishes. Join us on a journey of flavor, community, and coffee culture!</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://twitter.com/yourprofile"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://facebook.com/yourpage"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://instagram.com/yourprofile"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/coffee-img-1.JPG);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Espresso Unveiled: The Heart of Coffee Culture</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Aug 15, 2024</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 23</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/granola.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Gorolona Magic</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2024</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="https://www.google.com" target="_blank" class="py-2 d-block">Cooked</a></li>
+				<li><a href="https://www.google.com" target="_blank" class="py-2 d-block">Deliver</a></li>
+				<li><a href="https://www.google.com" target="_blank" class="py-2 d-block">Quality Foods</a></li>
+				  <li><a href="https://www.google.com" target="_blank" class="py-2 d-block">Mixed</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Valaichenai, Trinco road, Batticaloa, Srilanka.</span></li>
+	                <li><a href="tel:+94758333516"><span class="icon icon-phone"></span><span class="text">+94 758 333 516</span></a></li>
+					<li><a href="mailto:coffee@cafeelysee.com"><span class="icon icon-envelope"></span><span class="text">coffee@cafeelysee.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const appointmentForm = document.getElementById('appointmentForm');
+
+    appointmentForm.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting traditionally
+
+        // Gather form data
+        const firstName = document.querySelector('input[placeholder="First Name"]').value.trim();
+        const lastName = document.querySelector('input[placeholder="Last Name"]').value.trim();
+        const appointmentDate = document.querySelector('.appointment_date').value.trim();
+        const appointmentTime = document.querySelector('.appointment_time').value.trim();
+        const phone = document.querySelector('input[placeholder="Phone"]').value.trim();
+        const message = document.querySelector('textarea[placeholder="Message"]').value.trim();
+
+        // Validate form fields
+        if (!firstName || !lastName || !appointmentDate || !appointmentTime || !phone) {
+            alert('Please fill in all the required fields.');
+            return;
+        }
+
+        // Optional: Validate date and time format (you can extend this for better accuracy)
+        if (!isValidDate(appointmentDate) || !isValidTime(appointmentTime)) {
+            alert('Please provide a valid date and time.');
+            return;
+        }
+
+        // Optional: Validate phone number format
+        if (!isValidPhone(phone)) {
+            alert('Please provide a valid phone number.');
+            return;
+        }
+
+        // Handle the appointment data (e.g., send to the server or store in localStorage)
+        const appointmentData = {
+            firstName,
+            lastName,
+            appointmentDate,
+            appointmentTime,
+            phone,
+            message
+        };
+
+        // Example: Store the data in localStorage (you can replace this with an API call)
+        localStorage.setItem('appointmentData', JSON.stringify(appointmentData));
+
+        // Feedback to the user
+        alert('Your appointment has been booked successfully!');
+
+        // Clear the form after submission
+        appointmentForm.reset();
+    });
+
+    // Helper function to validate the date format (basic validation)
+    function isValidDate(date) {
+        const regex = /^\d{2}\/\d{2}\/\d{4}$/; // Assumes format MM/DD/YYYY
+        return regex.test(date);
+    }
+
+    // Helper function to validate time format (basic validation)
+    function isValidTime(time) {
+        const regex = /^\d{2}:\d{2}$/; // Assumes format HH:MM
+        return regex.test(time);
+    }
+
+    // Helper function to validate phone number (basic validation)
+    function isValidPhone(phone) {
+        const regex = /^[0-9]{10,15}$/; // Assumes phone number of length 10-15 digits
+        return regex.test(phone);
+    }
+});
+
+
+ </script>
+
+  </body>
+</html>
